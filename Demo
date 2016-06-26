@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    a = 11;
+    b =22 ;
+    printf("%d\n",a|b);//不知道在这个过程中发生了什么 a或b 这里a＝11 b＝22 没有真假的依据 。我怎么得出结果
+     printf("%d\n",a&b);//同上
+    return 0;
+}
